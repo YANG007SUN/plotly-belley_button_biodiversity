@@ -1,7 +1,7 @@
 var data;
 
 // read in json data
-d3.json("../samples.json").then((importdata)=>{
+d3.json("samples.json").then((importdata)=>{
 
     data = importdata;
     // create a subject id dropdownmenu
